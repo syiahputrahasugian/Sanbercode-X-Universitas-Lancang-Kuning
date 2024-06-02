@@ -28,5 +28,3 @@ Route::get('/table', function (){
 });
 
 Route::resource('cast', castController::class);
-
-Route::get('/edit', [CastController::class, 'edit']);
